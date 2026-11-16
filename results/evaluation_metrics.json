@@ -1,0 +1,11 @@
+{
+  "model": "Granite 3.3 2B Instruct",
+  "method": "QLoRA",
+  "training_steps": 200,
+  "trainable_parameters": 14090240,
+  "evaluation_samples": 500,
+  "base_accuracy": 0.6,
+  "base_macro_f1": 0.4273,
+  "finetuned_accuracy": 0.906,
+  "finetuned_macro_f1": 0.8798736455361693
+}

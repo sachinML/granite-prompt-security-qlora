@@ -1,0 +1,13 @@
+{
+  "base_model": "Granite 3.3 2B Instruct",
+  "fine_tuning": "QLoRA",
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "training_steps": 200,
+  "training_examples": 11083,
+  "validation_examples": 2800,
+  "base_accuracy": 0.6482,
+  "base_macro_f1": 0.4578,
+  "finetuned_accuracy": 0.9054,
+  "finetuned_macro_f1": 0.856040549042902
+}

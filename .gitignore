@@ -1,0 +1,27 @@
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Local datasets
+data/
+*.zip
+
+# Model weights
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Kaggle checkpoints
+checkpoint-*/
+outputs/
+runs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store

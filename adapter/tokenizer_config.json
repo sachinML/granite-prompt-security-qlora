@@ -1,0 +1,25 @@
+{
+  "add_prefix_space": false,
+  "backend": "tokenizers",
+  "bos_token": "<|end_of_text|>",
+  "clean_up_tokenization_spaces": true,
+  "eos_token": "<|end_of_text|>",
+  "errors": "replace",
+  "extra_special_tokens": [
+    "<|start_of_role|>",
+    "<|end_of_role|>",
+    "<|tool_call|>",
+    "<|start_of_cite|>",
+    "<|end_of_cite|>",
+    "<|start_of_plugin|>",
+    "<|end_of_plugin|>"
+  ],
+  "is_local": true,
+  "local_files_only": false,
+  "model_max_length": 9223372036854775807,
+  "pad_token": "<|end_of_text|>",
+  "padding_side": "left",
+  "tokenizer_class": "TokenizersBackend",
+  "unk_token": "<|end_of_text|>",
+  "vocab_size": 49152
+}
