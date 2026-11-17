@@ -1,0 +1,23 @@
+
+# Model loading and fine-tuning
+torch
+transformers
+accelerate
+bitsandbytes
+peft
+trl
+
+# Dataset processing
+datasets
+pandas
+numpy
+
+# Model evaluation
+scikit-learn
+
+# Notebook environment
+jupyter
+ipykernel
+
+# Tensor storage
+safetensors
